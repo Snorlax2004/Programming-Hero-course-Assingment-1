@@ -54,6 +54,8 @@ nav{
 }
 .menu li:hover{
     background-color: #30B868;
+    border-radius: 900px;
+    width: fit-content;
 }
 nav .btn-1{
     padding-top: 8px;
@@ -70,7 +72,9 @@ nav .btn-1 button{
     color: #FFFFFF;
     cursor: pointer;
 }
-
+nav .btn-1 button:hover{
+    text-decoration: underline;
+}
 /* Banner styles */
 .banner-details{
     /* border: 1px solid red; */
@@ -144,6 +148,9 @@ nav .btn-1 button{
     color: #FFFFFF;
     cursor: pointer;
 }
+.banner-details .banner-btns .btn-2:hover{
+    text-decoration: underline;
+}
 .banner-details .banner-btns .btn-3{
     max-width: 198px;
     background-color: transparent;
@@ -154,4 +161,7 @@ nav .btn-1 button{
     padding: 16px;
     color: #FFFFFF;
     cursor: pointer;
+}
+.banner-details .banner-btns .btn-3:hover{
+    text-decoration: underline;
 }
