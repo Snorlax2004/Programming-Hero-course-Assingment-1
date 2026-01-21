@@ -284,7 +284,7 @@ nav .btn-1 button:hover, .outro .btn-4 button:hover{
     background-color: #F7F6F2;
     max-width: 1360px;
     height: 365px;
-    margin: 0 auto;
+    margin: 0 120px 120px 120px;
     text-align: center;
     padding-top: 80px;
 }
@@ -327,4 +327,40 @@ nav .btn-1 button:hover, .outro .btn-4 button:hover{
     color: #627382;
     line-height: 20px;
     margin: 0 auto;
+}
+
+/* footer-styles */
+
+footer{
+    margin: 0 auto;
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+    color: #FFFFFF;
+}
+footer .social{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.link{
+    max-width: 220px;
+}
+.links p{
+    font-size: 20px;
+    font-weight: medium;
+    padding-right: 107px;
+    padding-bottom: 16px;
+}
+.links .icons{
+    padding-right: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 24px;
 }
