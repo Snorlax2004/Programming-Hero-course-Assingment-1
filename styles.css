@@ -72,7 +72,7 @@ nav .btn-1 button{
     color: #FFFFFF;
     cursor: pointer;
 }
-nav .btn-1 button:hover{
+nav .btn-1 button:hover, .outro .btn-4 button:hover{
     text-decoration: underline;
 }
 
@@ -275,4 +275,56 @@ nav .btn-1 button:hover{
 }
 .apps .apps-details .apps-points{
     padding-top: 40px;
+}
+
+/* outro-styles */
+
+.outro{
+    /* border: 1px solid red; */
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    height: 365px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.outro .outro-title{
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    text-transform: capitalize;
+}
+.outro .outro-text-1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: regular;
+    color: #627382;
+    line-height: 24px;
+    padding-top: 16px;
+}
+.outro .btn-4{
+    padding-top: 24px;
+    margin: 0 auto;
+}
+.outro .btn-4 button{
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
+    max-width: 194px;
+    font-size: 16px;
+    font-weight: semi-bold;
+    color: #FFFFFF;
+    padding: 16.5px 16px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15) ;
+}
+.outro .outro-text-2{
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: regular;
+    color: #627382;
+    line-height: 20px;
+    margin: 0 auto;
 }
