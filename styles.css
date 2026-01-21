@@ -356,6 +356,9 @@ footer .social{
     display: flex;
     justify-content: space-between;
 }
+.links .icons i{
+    cursor: pointer;
+}
 .copyright{
     /* border: 1px solid red; */
     margin-top: 30px;
