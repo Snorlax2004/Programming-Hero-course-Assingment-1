@@ -233,3 +233,46 @@ nav .btn-1 button:hover{
     font-weight: regular;
     color: #627382;
 }
+
+/* apps-styles */
+
+.apps{
+    /* max-width: 1360px; */
+    padding: 120px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 60px;
+}
+.apps .app-img img{
+    width: 600px;
+    height: 600px;
+}
+.apps .apps-details{
+    max-width: 700px;
+    /* border: 1px solid red; */
+    padding-top: 102px;
+    margin: 0 auto;
+    text-align: left;
+}
+.apps .apps-details .apps-caption{
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 20px;
+    color: #30B868;
+}
+.apps .apps-details .apps-heading{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding-top: 16px;
+}
+.apps .apps-details .apps-text{
+    font-size: 16px;
+    font-weight: regular;
+    color: #627382;
+    padding-top: 16px;
+}
+.apps .apps-details .apps-points{
+    padding-top: 40px;
+}
